@@ -10,7 +10,7 @@ $automationAccountName = 'desiredconfiguration'
 #The name of the target VM
 $virtualMachineName = 'proxyserver'
 
-####### DEBES CREAR EL SCRIPT QUE TE DEJO EN ESTE MISMO REPO EN UNA RUTA DE TU PC Y MAPEARLA EN LA SIGUIENTE LINEA
+####### DEBES DESCARGAR EL SCRIPT APACHE2 QUE TE DEJO EN ESTE MISMO REPO EN UNA RUTA DE TU PC Y MAPEARLA EN LA SIGUIENTE LINEA DE CODIGO
 
 #Import DSC script file into Azure DSC
 Import-AzAutomationDscConfiguration -SourcePath "apache2.ps1" -ResourceGroupName $resourceGroupName -AutomationAccountName $automationAccountName -Published
